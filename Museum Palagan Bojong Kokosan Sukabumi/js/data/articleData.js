@@ -6,7 +6,7 @@ const articleData = {
     date: "28 Mei 2025",
     author: {
         name: "Sammy",
-        avatar: "./../../Penulis/Sammy.jpg",
+        avatar: "./Penulis/Sammy.jpg",
         bio: "Perjalanan di Museum Palagan Bojong Kokosan Sukabumi"
     },
     heroImage: "./images/Foto (1).jpg",
@@ -43,7 +43,7 @@ const articleData = {
             id: "cerita sejarah",
             title: "Sejarah singkat peperangan di Sukabumi", 
             content: `
-                <p>Perang ini terjadi pada tanggal 9 Desember 1945 sampai 12 Desember 1945. Sejarah singkat terjadinya perang Bojong Kokosan adalah pasukan sekutu dan NICA datang ke Sukabumi untuk menguasai Sukabumi, Jawa Barat, dan Pulau Jawa. Perjalanan dimulai dari Jakarta menuju Bandung melalui jalur Bogor-Sukabumi-Cianjur (BOSUCI). Pasukan datang dengan senjata tempur lengkap seperti tank sherman, tank stuart, panser, bren Carriers, dan +150 truk. Perang konvoi ini terjadi dengan panjangnya + 12 km (“Ular Berbisa”). Pada saat tank sherman mencoba mendorongnya terjadi ledakan akibat mengenai ranjau darat. Pada saat ini para pribumi mencoba melawan pasukan sekutu dengan taktik “Hit and Run” dar i ujung kepala hingga ekor pasukan yang berada di Cigombong. Dengan peralatan dan senjata seadanya perang pun dimenangi oleh pihak pribumi. Para pahlawan yang terlibat dalam perang ini adalah Ir. Soekarno, J.Sudirman, C.Oerif Soemohardjo, Mayjen R.Didi Kartasasmita, Letkol Eddie Soekardi, Mayor Yahya Bahran Rangkuti, Mayor Harry Soekardi, Kapten Anwar Padmawijaya, dan Mayor Abdurachman.</p>
+                <p>Perang ini terjadi pada tanggal 9 Desember 1945 sampai 12 Desember 1945. Sejarah singkat terjadinya perang Bojong Kokosan adalah pasukan sekutu dan NICA datang ke Sukabumi untuk menguasai Sukabumi, Jawa Barat, dan Pulau Jawa. Perjalanan dimulai dari Jakarta menuju Bandung melalui jalur Bogor-Sukabumi-Cianjur (BOSUCI). Pasukan datang dengan senjata tempur lengkap seperti tank sherman, tank stuart, panser, bren Carriers, dan +150 truk. Perang konvoi ini terjadi dengan panjangnya + 12km (“Ular Berbisa”). Pada saat tank sherman mencoba mendorongnya terjadi ledakan akibat mengenai ranjau darat. Pada saat ini para pribumi mencoba melawan pasukan sekutu dengan taktik “Hit and Run” dari ujung kepala hingga ekor pasukan yang berada di Cigombong. Dengan peralatan dan senjata seadanya perang pun dimenangi oleh pihak pribumi. Para pahlawan yang terlibat dalam perang ini adalah Ir. Soekarno, J.Sudirman, C.Oerif Soemohardjo, Mayjen R.Didi Kartasasmita, Letkol Eddie Soekardi, Mayor Yahya Bahran Rangkuti, Mayor Harry Soekardi, Kapten Anwar Padmawijaya, dan Mayor Abdurachman.</p>
             `
         }
     ]
@@ -54,6 +54,7 @@ const relatedPosts = [
         id: 2,
         title: "Museum Tionghoa Sukabumi",
         date: "28 Mei 2025", 
-        image: "./images/Foto 4.jpeg"
+        image: "./images/Foto 4.jpeg",
+        href : "https://museum-tionghoa-sukabumi-blog-verse.vercel.app/"
     }
 ];
